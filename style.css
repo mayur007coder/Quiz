@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #252d9f;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#question-container {
+    font-size: 18px;
+    color: rgb(222, 225, 47);
+    padding-bottom: 19px;
+}
+
+#question-container:hover {
+    font-size: 20px;
+
+}
+
+#quiz-container {
+    background-color: #3561a2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: url("jup.jpg");
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #92e284;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    font-size: 13.8px;
+}
+
+button:active {
+    color: aqua;
+}
+
+#result-container {
+    margin-top: 20px;
+    font-weight: bold;
+}
